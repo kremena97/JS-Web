@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Engine
+metadata:
+  name: game-engine
+  description: The engine responsible for slot game mechanics
+spec:
+  owner: team-casino
+  type: slot
+  version: 1.0.0
