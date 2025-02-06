@@ -1,9 +1,21 @@
 apiVersion: backstage.io/v1alpha1
 kind: Engine
 metadata:
-  name: game-engine
-  description: The engine responsible for slot game mechanics
+  name: "plus-extra-slot"
+  description: This is engine with wild expands and respins
+  links:
+    - title: Game Demo
+      url: https://demo-dev.games.amusnet.io/games/newPortal/?gin=402
+    - title: Design
+      url: https://confluence.amusnet.net/display/EIG/Diamond+Plus+-+Design
+    - title: Specification
+      url: https://confluence.amusnet.net/display/EIG/Diamond+Plus+-+Specification
+    - title: Platform Configuration
+      url: https://bitbucket.tech.amusnet.io/projects/CF/repos/game-platform/browse/platform/src/games.config.json#271
 spec:
-  owner: team-casino
-  type: slot
-  version: 1.0.0
+  type: engine
+  owner: Casino | Arcane
+  lifecycle: production
+  dependsOn: 
+    - single-base-slot
+    - component-extra-win
