@@ -3,19 +3,6 @@ kind: Component
 metadata:
   name: "plus-extra-slot"
   description: This is engine with wild expands and respins
-  links:
-    - title: Game Demo
-      url: https://demo-dev.games.amusnet.io/games/newPortal/?gin=402
-    - title: Design
-      url: https://confluence.amusnet.net/display/EIG/Diamond+Plus+-+Design
-    - title: Specification
-      url: https://confluence.amusnet.net/display/EIG/Diamond+Plus+-+Specification
-    - title: Platform Configuration
-      url: https://bitbucket.tech.amusnet.io/projects/CF/repos/game-platform/browse/platform/src/games.config.json#271
 spec:
-  type: engine
-  owner: Casino | Arcane
+  owner: team-casino
   lifecycle: production
-  dependsOn: 
-    - single-base-slot
-    - component-extra-win
