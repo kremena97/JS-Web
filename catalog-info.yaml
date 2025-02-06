@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Engine
+metadata:
+  name: my-test-engine
+  description: A test engine to verify Kind display
+spec:
+  owner: team-xyz
+  type: game
+  version: 1.0.0
